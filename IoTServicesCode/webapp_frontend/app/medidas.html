@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Medidas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="ISO-8859-1">
+</head>
+<body>
+    <h2 class="device_info result"></h2>
+    <table>
+        <tr>
+            <th>
+                Inicio:
+            </th>
+            <th>
+                <input type="date" id="start" name="start">
+            </th>
+            <th>
+                Final:
+            </th>
+            <th>
+                <input type="date" id="end" name="end">
+            </th>
+            <th>
+                <input type="button" id="filtrar" onclick="filtrar()" value="Filtrar">
+            </th>
+            </tr>
+    </table>
+    <table id="Table">
+		<tr>
+            <th>Fecha</th>
+			<th>Temperatura ºC</th>
+			<th>Humedad</th>
+		</tr>
+
+		<tbody class="sensor_measures result">
+
+		</tbody>
+	</table>
+
+    <input type="button" class="volver" onclick="volver()" value="Volver">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js_lib_medidas.js"></script>
+</body>
+</html>

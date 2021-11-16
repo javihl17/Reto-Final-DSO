@@ -1,0 +1,33 @@
+/*
+ * Style sheets file to implement layout for 
+ * Operating Systems Desing exercises.
+ */
+
+head{
+        color: black;
+}
+
+th{
+    color: black;
+    margin: 20px auto 40px auto;
+}
+
+
+tr:nth-child(event) {
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+th{
+    background-color: #9E8984;
+}
+
+table{
+    WIDTH: 40%;
+    border:0;
+    table-layout:auto;
+}
+

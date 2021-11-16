@@ -1,0 +1,6 @@
+FROM mariadb:latest
+
+COPY useful_commands.sql /etc/usr/src/app/useful_commands.sql
+workdir /etc/usr/src/app
+
+CMD mysql -u root -p 'pdwdeprueba' useful_commands.sql && rm -f useful_commands.sql

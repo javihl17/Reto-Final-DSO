@@ -1,0 +1,5 @@
+- La máquina donde se encuentra el proyecto y donde se corren los contenedores es: instance-containers-reto-final
+- La máquina donde se ejecuta el mqtt es: mqtt-broker
+- Para que funcione hay que cambiar las ips del docker-compose, los archivos js y el publisher de la raspberry
+- Para ver los cambios en el estado en la web hay que actualizar la página
+- Asegurarse que en la máquina de los contenedores se está en la branch master
